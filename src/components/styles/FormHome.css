@@ -1,0 +1,18 @@
+.home_input{
+    border: none;
+    box-shadow: 1px 2px 7px rgb(148, 148, 148) ;
+    padding: .5rem;
+}
+
+
+.home_btn{
+    border: none;
+    padding: .5rem 1.3rem;
+    background-color: var(--color-btn);
+    color: white;
+    cursor: pointer;
+}
+
+.home_btn:hover{
+    filter: brightness(1.3);
+} 

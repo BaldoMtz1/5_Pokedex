@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.pokemonId{
+    position: relative;
+    width: min(1116px, 100%);
+    text-align: center;
+}
+
+.pokemonId_header{
+    
+    top: 0;
+    height: 160px;
+    width: 100%;
+    background-color: red;
+}
+
+.pokemonId_img{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+}
+
+.pokemonId_id{
+    font-size: 25px;
+    margin: 1rem;
+
+
+}
+
+.pokemonId_name{
+    text-transform: capitalize;
+}
+
+

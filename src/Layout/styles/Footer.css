@@ -1,0 +1,47 @@
+.footer{
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    background-color: var(--color-footer);
+
+}
+
+
+.footer_black{
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+
+.footer_circle{
+    position: absolute;
+    bottom: 0px;
+    width: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer_circle-int{
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: rgb(78, 78, 78);
+    border: 10px solid whitesmoke;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
